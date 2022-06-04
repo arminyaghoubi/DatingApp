@@ -1,0 +1,7 @@
+<p-card>
+  {{title}}
+  Selected : {{selectedUser?.userName}}
+</p-card>
+
+<p-listbox [options]="users" [(ngModel)]="selectedUser" optionLabel="userName"></p-listbox>
+
